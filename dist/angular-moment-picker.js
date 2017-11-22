@@ -1,4 +1,4 @@
-/*! Angular Moment Picker - v10.10.1 - http://indrimuska.github.io/angular-moment-picker - (c) 2015 Indri Muska - MIT */
+/*! Angular Moment Picker - v10.10.2 - http://indrimuska.github.io/angular-moment-picker - (c) 2015 Indri Muska - MIT */
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -185,7 +185,7 @@ angular
     .directive('momentPicker', [
     '$timeout', '$sce', '$log', '$window', 'momentPicker', '$compile', '$templateCache',
     function ($timeout, $sce, $log, $window, momentPicker, $compile, $templateCache) {
-        return new directive_1["default"]($timeout, $sce, $log, $window, momentPicker.$get(), $compile, $templateCache);
+        return new directive_1["default"]($timeout, $sce, $log, $window, momentPicker, $compile, $templateCache);
     }
 ]);
 
