@@ -170,8 +170,7 @@ export default class Directive implements ng.IDirective {
 					$scope.picker[0].parentNode.removeChild($scope.picker[0]);
 				},
 				position: () => {
-					if (!$scope.view.isOpen || $scope.position || $scope.inline) return;
-
+					if (!$scope.view.isOpen || $scope.inline) return;
 					let element = $element[0],
 						picker = $scope.picker.children()[0],
 						hasClassTop = $scope.picker.hasClass('top'),
